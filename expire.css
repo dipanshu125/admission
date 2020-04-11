@@ -1,0 +1,32 @@
+#exp{text-align: center;
+	font-size: 700%;
+	color: red;
+	font-family:Bloodthirsty;
+
+}
+#img1{align-items: center;
+	bottom: 50%;
+}
+body{
+	background-image: url(SPOOKY.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+#buton{width: 110px;
+	position:absolute;
+	animation-name: anime;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	border: 2px solid black;
+	animation-iteration-count: 1000;
+	left: 90%;
+}
+@keyframes anime{
+	0%{color: : #ffffff;  }
+	25%{color: #ffffcc; }
+	50%{color: #00ccff; }
+	75%{color: #ffcccc;}
+	100%{color:#ffffff; }
+}

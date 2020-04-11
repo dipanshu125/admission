@@ -1,0 +1,78 @@
+*{background-color: black;
+	color: white;
+
+}
+h1{
+	font-family:bold;
+	font-size: 130px;
+}
+#logo{ float: right;
+	position: relative;
+	float: top;
+	size: 50px;
+
+}
+#para1{ font-size: 25px;
+
+}
+#para2{
+	font-size: 25px;
+}
+#link{
+	font-size: 25px;
+}
+button{
+	font-size: 20px;
+	color: black;
+	transition: 5px;
+	background-color: white
+}
+button{width: 110px;
+	position:relative;
+	animation-name: anime;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	border: 2px solid black;
+	animation-iteration-count: 100;
+}
+@keyframes anime{
+	0%{color: : red; background-color: aqua; }
+	25%{color: yellow; background-color: green;}
+	50%{color: blue; background-color: white;}
+	75%{color: green; background-color: yellow;}
+	100%{color: red; background-color: aqua;}
+}
+marquee{
+	font-size: 20px;
+	background-color: yellow;
+	color: black;
+}
+img{
+	background-color: yellow;
+}
+a{
+	background-color: yellow;
+	color: black;
+}
+.marq{
+	float: right;
+}
+.youtube{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 315x;
+	white-space: nowrap;
+}
+h2{
+	float: right;
+
+}
+h2.hover{
+	transform: scaleX(1.5);
+}
+#lef{
+	float: right;
+	font-family:chilled;
+	font-style: bold;
+	border-bottom: dashed white; 
+}
