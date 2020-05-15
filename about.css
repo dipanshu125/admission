@@ -27,13 +27,14 @@ button{
 	transition: 5px;
 	background-color: white
 }
-button{width: 110px;
+button{width: 250px;
+	height: 50px;
 	position:relative;
 	animation-name: anime;
 	animation-duration: 4s;
 	animation-delay: 2s;
 	border: 2px solid black;
-	animation-iteration-count: 100;
+	animation-iteration-count: 100000;
 }
 @keyframes anime{
 	0%{color: : red; background-color: aqua; }
